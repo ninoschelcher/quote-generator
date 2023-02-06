@@ -4,7 +4,7 @@ import { Quotes } from "./components/Quotes";
 import { QuotesByAuthor } from "./components/QuotesByAuthor";
 import { Footer } from "./components/Footer";
 
-export const App = () => {
+const App = () => {
   const [quote, setQuote] = useState([]);
   const [quoteTags, setQuoteTags] = useState([]);
   const [showQuotesByAuthor, setShowQuotesByAuthor] = useState(false);
@@ -35,3 +35,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
